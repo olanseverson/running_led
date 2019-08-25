@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:led_yol-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLegal 14000 8500
@@ -1341,23 +1342,12 @@ $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5D6E172C
-P 1050 6300
-F 0 "#PWR04" H 1050 6050 50  0001 C CNN
-F 1 "GND" H 1055 6127 50  0000 C CNN
-F 2 "" H 1050 6300 50  0001 C CNN
-F 3 "" H 1050 6300 50  0001 C CNN
-	1    1050 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 5D6E1A83
-P 2500 7000
-F 0 "#PWR014" H 2500 6750 50  0001 C CNN
-F 1 "GND" H 2505 6827 50  0000 C CNN
-F 2 "" H 2500 7000 50  0001 C CNN
-F 3 "" H 2500 7000 50  0001 C CNN
-	1    2500 7000
+P 750 7300
+F 0 "#PWR04" H 750 7050 50  0001 C CNN
+F 1 "GND" H 755 7127 50  0000 C CNN
+F 2 "" H 750 7300 50  0001 C CNN
+F 3 "" H 750 7300 50  0001 C CNN
+	1    750  7300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1416,17 +1406,6 @@ F 3 "" H 11050 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR029
-U 1 1 5D6E3FDC
-P 9750 5800
-F 0 "#PWR029" H 9750 5550 50  0001 C CNN
-F 1 "GND" H 9755 5627 50  0000 C CNN
-F 2 "" H 9750 5800 50  0001 C CNN
-F 3 "" H 9750 5800 50  0001 C CNN
-	1    9750 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR026
 U 1 1 5D6E41CC
 P 8350 5800
@@ -1435,17 +1414,6 @@ F 1 "GND" H 8355 5627 50  0000 C CNN
 F 2 "" H 8350 5800 50  0001 C CNN
 F 3 "" H 8350 5800 50  0001 C CNN
 	1    8350 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 5D6E43FA
-P 7050 5800
-F 0 "#PWR024" H 7050 5550 50  0001 C CNN
-F 1 "GND" H 7055 5627 50  0000 C CNN
-F 2 "" H 7050 5800 50  0001 C CNN
-F 3 "" H 7050 5800 50  0001 C CNN
-	1    7050 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1647,17 +1615,6 @@ F 3 "" H 1700 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR013
-U 1 1 5D6ED4EE
-P 2500 5000
-F 0 "#PWR013" H 2500 4850 50  0001 C CNN
-F 1 "+5V" H 2515 5173 50  0000 C CNN
-F 2 "" H 2500 5000 50  0001 C CNN
-F 3 "" H 2500 5000 50  0001 C CNN
-	1    2500 5000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR03
 U 1 1 5D6EEBBC
 P 1050 5300
@@ -1758,8 +1715,6 @@ Wire Wire Line
 Wire Wire Line
 	7050 5250 7050 5300
 Wire Wire Line
-	7050 5700 7050 5800
-Wire Wire Line
 	8100 1400 8100 1450
 Wire Wire Line
 	8600 1400 8600 1450
@@ -1802,8 +1757,6 @@ Wire Wire Line
 	8350 5250 8600 5250
 Wire Wire Line
 	8350 5700 8350 5800
-Wire Wire Line
-	9750 5700 9750 5800
 Wire Wire Line
 	9750 5300 9750 5250
 Wire Wire Line
@@ -1983,12 +1936,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR017
 U 1 1 5D919332
-P 3400 2850
-F 0 "#PWR017" H 3400 2600 50  0001 C CNN
-F 1 "GND" H 3405 2677 50  0000 C CNN
-F 2 "" H 3400 2850 50  0001 C CNN
-F 3 "" H 3400 2850 50  0001 C CNN
-	1    3400 2850
+P 3900 2950
+F 0 "#PWR017" H 3900 2700 50  0001 C CNN
+F 1 "GND" H 3905 2777 50  0000 C CNN
+F 2 "" H 3900 2950 50  0001 C CNN
+F 3 "" H 3900 2950 50  0001 C CNN
+	1    3900 2950
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1200 3250
@@ -2127,34 +2080,30 @@ Text Label 1750 5650 0    50   ~ 0
 O_Y
 Text Label 1750 5750 0    50   ~ 0
 O_O
-Text Label 1750 5850 0    50   ~ 0
+Text Label 3000 5750 0    50   ~ 0
 O_L
-Text Label 1750 5950 0    50   ~ 0
+Text Label 3000 5850 0    50   ~ 0
 O_A
 Text Label 1750 6050 0    50   ~ 0
 O_N
-Text Label 1750 6150 0    50   ~ 0
+Text Label 3000 6050 0    50   ~ 0
 O_D
-Text Label 1750 6250 0    50   ~ 0
+Text Label 3000 6150 0    50   ~ 0
 O_N.
 Wire Wire Line
 	2000 6550 1750 6550
 Wire Wire Line
-	2500 6950 2500 7000
-Wire Wire Line
 	2500 5000 2500 5350
-Text Label 3000 6150 0    50   ~ 0
+Text Label 3700 6300 0    50   ~ 0
 O_N.
-Text Label 3000 6050 0    50   ~ 0
+Text Label 3700 5950 0    50   ~ 0
 O_D
 Text Label 3000 5950 0    50   ~ 0
 O_N
-Text Label 3000 5850 0    50   ~ 0
+Text Label 3700 5600 0    50   ~ 0
 O_A
-Text Label 3000 5750 0    50   ~ 0
+Text Label 3200 5350 0    50   ~ 0
 O_L
-Text Label 3000 5650 0    50   ~ 0
-O_O
 Text Label 1050 5850 0    50   ~ 0
 O_Y
 Text Label 3000 6250 0    50   ~ 0
@@ -2173,28 +2122,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1650 7300 50 
 F 3 "~" H 1650 7300 50  0001 C CNN
 	1    1650 7300
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5DAE5A62
-P 1650 7600
-F 0 "#PWR08" H 1650 7350 50  0001 C CNN
-F 1 "GND" H 1655 7427 50  0000 C CNN
-F 2 "" H 1650 7600 50  0001 C CNN
-F 3 "" H 1650 7600 50  0001 C CNN
-	1    1650 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR07
-U 1 1 5DAE5E7B
-P 1650 7000
-F 0 "#PWR07" H 1650 6850 50  0001 C CNN
-F 1 "+5V" H 1665 7173 50  0000 C CNN
-F 2 "" H 1650 7000 50  0001 C CNN
-F 3 "" H 1650 7000 50  0001 C CNN
-	1    1650 7000
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1650 7000 1650 7050
@@ -2230,7 +2157,7 @@ U 1 1 5DC6FE40
 P 950 6050
 F 0 "Q2" H 1156 6096 50  0000 L CNN
 F 1 "2N7000" H 1156 6005 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1150 5975 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 1150 5975 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 950 6050 50  0001 L CNN
 	1    950  6050
 	1    0    0    -1  
@@ -2241,7 +2168,7 @@ U 1 1 5DC983BD
 P 12250 5500
 F 0 "Q9" H 12456 5546 50  0000 L CNN
 F 1 "2N7000" H 12456 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 12450 5425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 12450 5425 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 12250 5500 50  0001 L CNN
 	1    12250 5500
 	1    0    0    -1  
@@ -2252,7 +2179,7 @@ U 1 1 5DC992D7
 P 4350 5500
 F 0 "Q3" H 4556 5546 50  0000 L CNN
 F 1 "2N7000" H 4556 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4550 5425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 4550 5425 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4350 5500 50  0001 L CNN
 	1    4350 5500
 	1    0    0    -1  
@@ -2263,7 +2190,7 @@ U 1 1 5DC99E49
 P 5750 5500
 F 0 "Q4" H 5956 5546 50  0000 L CNN
 F 1 "2N7000" H 5956 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5950 5425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5950 5425 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 5750 5500 50  0001 L CNN
 	1    5750 5500
 	1    0    0    -1  
@@ -2274,7 +2201,7 @@ U 1 1 5DC9F461
 P 6950 5500
 F 0 "Q5" H 7156 5546 50  0000 L CNN
 F 1 "2N7000" H 7156 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7150 5425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 7150 5425 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6950 5500 50  0001 L CNN
 	1    6950 5500
 	1    0    0    -1  
@@ -2285,7 +2212,7 @@ U 1 1 5DCA01D9
 P 8250 5500
 F 0 "Q6" H 8456 5546 50  0000 L CNN
 F 1 "2N7000" H 8456 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8450 5425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 8450 5425 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8250 5500 50  0001 L CNN
 	1    8250 5500
 	1    0    0    -1  
@@ -2296,7 +2223,7 @@ U 1 1 5DCA0DB1
 P 9650 5500
 F 0 "Q7" H 9856 5546 50  0000 L CNN
 F 1 "2N7000" H 9856 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9850 5425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 9850 5425 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 9650 5500 50  0001 L CNN
 	1    9650 5500
 	1    0    0    -1  
@@ -2307,7 +2234,7 @@ U 1 1 5DCA18D8
 P 10950 5500
 F 0 "Q8" H 11156 5546 50  0000 L CNN
 F 1 "2N7000" H 11156 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11150 5425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 11150 5425 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 10950 5500 50  0001 L CNN
 	1    10950 5500
 	1    0    0    -1  
@@ -2318,9 +2245,195 @@ U 1 1 5DCA4958
 P 950 5550
 F 0 "Q1" H 1156 5596 50  0000 L CNN
 F 1 "BS250" H 1156 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1150 5475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 1150 5475 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 950 5550 50  0001 L CNN
 	1    950  5550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5E2661E2
+P 3000 5250
+F 0 "J3" H 3108 5431 50  0000 C CNN
+F 1 "L_VIA" H 3108 5340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3000 5250 50  0001 C CNN
+F 3 "~" H 3000 5250 50  0001 C CNN
+	1    3000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5E26692E
+P 3500 5500
+F 0 "J4" H 3608 5681 50  0000 C CNN
+F 1 "A_VIA" H 3608 5590 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 5500 50  0001 C CNN
+F 3 "~" H 3500 5500 50  0001 C CNN
+	1    3500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5E267215
+P 3500 5850
+F 0 "J5" H 3608 6031 50  0000 C CNN
+F 1 "D_VIA" H 3608 5940 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 5850 50  0001 C CNN
+F 3 "~" H 3500 5850 50  0001 C CNN
+	1    3500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5E2676EE
+P 3500 6200
+F 0 "J6" H 3608 6381 50  0000 C CNN
+F 1 "N._VIA" H 3608 6290 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 6200 50  0001 C CNN
+F 3 "~" H 3500 6200 50  0001 C CNN
+	1    3500 6200
+	1    0    0    -1  
+$EndComp
+Text Label 3200 5250 0    50   ~ 0
+O_VIA_L
+Text Label 1750 5850 0    50   ~ 0
+O_VIA_L
+Text Label 1750 5950 0    50   ~ 0
+O_VIA_A
+Text Label 3700 5500 0    50   ~ 0
+O_VIA_A
+Text Label 3700 5850 0    50   ~ 0
+O_VIA_D
+Text Label 1750 6150 0    50   ~ 0
+O_VIA_D
+Text Label 1750 6250 0    50   ~ 0
+O_VIA_N.
+Text Label 3700 6200 0    50   ~ 0
+O_VIA_N.
+Text Label 3000 5650 0    50   ~ 0
+O_O
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5D6E160E
+P 1700 4700
+F 0 "J2" H 1808 4881 50  0000 C CNN
+F 1 "VCC_VIA" H 1808 4790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1700 4700 50  0001 C CNN
+F 3 "~" H 1700 4700 50  0001 C CNN
+	1    1700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR013
+U 1 1 5D6ED4EE
+P 2200 4700
+F 0 "#PWR013" H 2200 4550 50  0001 C CNN
+F 1 "+5V" H 2215 4873 50  0000 C CNN
+F 2 "" H 2200 4700 50  0001 C CNN
+F 3 "" H 2200 4700 50  0001 C CNN
+	1    2200 4700
+	1    0    0    -1  
+$EndComp
+Text Label 2500 5000 0    50   ~ 0
+5V_VIA
+Text Label 1650 7000 0    50   ~ 0
+5V_VIA
+Wire Wire Line
+	7050 5700 7050 5800
+$Comp
+L power:GND #PWR024
+U 1 1 5D6E43FA
+P 7050 5800
+F 0 "#PWR024" H 7050 5550 50  0001 C CNN
+F 1 "GND" H 7055 5627 50  0000 C CNN
+F 2 "" H 7050 5800 50  0001 C CNN
+F 3 "" H 7050 5800 50  0001 C CNN
+	1    7050 5800
+	1    0    0    -1  
+$EndComp
+Text Label 2200 4800 0    50   ~ 0
+5V_VIA
+Wire Wire Line
+	1900 4700 2200 4700
+Wire Wire Line
+	2200 4800 1900 4800
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 5D7F17E8
+P 3700 2850
+F 0 "J7" H 3808 3031 50  0000 C CNN
+F 1 "GND_VIA" H 3808 2940 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3700 2850 50  0001 C CNN
+F 3 "~" H 3700 2850 50  0001 C CNN
+	1    3700 2850
+	1    0    0    -1  
+$EndComp
+Text Label 3400 2850 0    50   ~ 0
+GND1
+Text Label 3900 2850 0    50   ~ 0
+GND1
+Text Label 2650 6950 0    50   ~ 0
+GND1
+Wire Wire Line
+	2650 6950 2500 6950
+$Comp
+L power:GND #PWR07
+U 1 1 5D842836
+P 10500 6000
+F 0 "#PWR07" H 10500 5750 50  0001 C CNN
+F 1 "GND" H 10505 5827 50  0000 C CNN
+F 2 "" H 10500 6000 50  0001 C CNN
+F 3 "" H 10500 6000 50  0001 C CNN
+	1    10500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J8
+U 1 1 5D84283C
+P 10300 5900
+F 0 "J8" H 10408 6081 50  0000 C CNN
+F 1 "GND_VIA" H 10408 5990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10300 5900 50  0001 C CNN
+F 3 "~" H 10300 5900 50  0001 C CNN
+	1    10300 5900
+	1    0    0    -1  
+$EndComp
+Text Label 10500 5900 0    50   ~ 0
+GND2
+Text Label 9750 5850 0    50   ~ 0
+GND2
+Wire Wire Line
+	9750 5700 9750 5850
+$Comp
+L Connector:Conn_01x02_Male J9
+U 1 1 5D8826DE
+P 550 6550
+F 0 "J9" H 658 6731 50  0000 C CNN
+F 1 "GND_VIA" H 658 6640 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 550 6550 50  0001 C CNN
+F 3 "~" H 550 6550 50  0001 C CNN
+	1    550  6550
+	1    0    0    -1  
+$EndComp
+Text Label 750  6550 0    50   ~ 0
+1_3GND
+Text Label 1050 6300 0    50   ~ 0
+1_3GND
+$Comp
+L Connector:Conn_01x02_Male J10
+U 1 1 5D88BB57
+P 550 7200
+F 0 "J10" H 658 7381 50  0000 C CNN
+F 1 "GND_VIA" H 658 7290 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 550 7200 50  0001 C CNN
+F 3 "~" H 550 7200 50  0001 C CNN
+	1    550  7200
+	1    0    0    -1  
+$EndComp
+Text Label 750  6650 0    50   ~ 0
+2_3GND
+Text Label 750  7200 0    50   ~ 0
+2_3GND
+Text Label 1650 7600 0    50   ~ 0
+2_3GND
 $EndSCHEMATC
