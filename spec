@@ -16,7 +16,26 @@ PS:
 1.5A
 20W
 24V
-
+========================== DESAIN =====================================
+-x   x| xxx |x    | xxx |x   x|xxx  |x   x       \ XXX                                                                               
+-x   x|x   x|x    |x   x|x   x|x  x |x   x       \X   X                                                                                 
+-x   x|x   x|x    |x   x|xx  x|x   x|xx  x       \X                                                                                     
+- x x |x   x|x    |xxxxx|x x x|x   x|x x x       \X XXX                                                                                   
+-  x  |x   x|x    |x   x|x  xx|x   x|x  xx       \X   X                                                                                 
+-  x  |x   x|x    |x   x|x   x|x  x |x   x       \X   X                                                                                  
+-  x  | xxx |xxxxx|x   x|x   x|xxx  |x   x x     \ XXX                                                                                   
+=======================================================================
+-x   x| xxx |x    | xxx |x   x|xxx  |x   x                                                                                           
+-x   x|x   x|x    |x   x|xx  x|x  x |xx  x                                                                                              
+- x x |x   x|x    |x   x|x x x|x   x|x x x                                                                                             
+-  x  |x   x|x    |xxxxx|x  xx|x   x|x  xx                                                                                                
+-  x  |x   x|x    |x   x|x   x|x  x |x   x                                                                                               
+-  x  | xxx |xxxxx|x   x|x   x|xxx  |x   x x                                                                                              
+-----------------------------------------------------------------------
+   9  |  14 | 10  |  16 |  15 | 14  | 16 | TOTAL = 94
+=======================================================================
+	
+================================ PRINT PCB ============================
 https://www.tokopedia.com/allaboutmypc/design-dan-cetak-pcb?trkid=f=Ca0000L000P0W0S0Sh,Co0Po0Fr0Cb0_src=search_page=1_ob=203_q=cetak+pcb_bmexp=27_po=25_catid=577_bmexp=27&whid=0
 
 https://www.tokopedia.com/cetakpcb/cetak-pcb-murah-single-layer-silk-screen-cm2?trkid=f=Ca0000L000P0W0S0Sh,Co0Po0Fr0Cb0_src=search_page=1_ob=203_q=cetak+pcb_bmexp=27_po=31_catid=577_bmexp=27&whid=0
@@ -27,7 +46,9 @@ https://www.tokopedia.com/juhana/cetak-pcb-single-doble-layer-through-hole-murah
 
 PERTIMBANGAN:
 https://www.tokopedia.com/kit-elektronika/cetak-pcb-dan-design-pcb?trkid=f=Ca0000L000P0W0S0Sh,Co0Po0Fr0Cb0_src=search_page=1_ob=5_q=cetak+pcb_bmexp=27_po=2_catid=4107_bmexp=27&whid=0
-============ASTABLE MULTIVIBRATOR=====================================
+=======================================================================
+
+============ASTABLE MULTIVIBRATOR======================================
 https://www.electronicshub.org/astable-multivibrator-using-555-timer/
 https://circuitdigest.com/calculators/555-timer-astable-circuit-calculator
 Th = 0.7 * (R1 + R2) * C1
@@ -45,9 +66,21 @@ f =    1.44  / ((R1 + 2*R2) * C1)
 
 ================== JHONSON COUNTER ====================================
 - 2N2222 NPN/2N2907 PNP || 
+- 74LS374 (http://www.ti.com/lit/ds/symlink/sn54s373.pdf)
 
+- pnp/ npn:
+	bs250 (https://www.vishay.com/docs/70209/70209.pdf) 
+	2n7000 (https://www.onsemi.com/pub/Collateral/2N7000-D.PDF)
 
+- pnp/npn:
+	
+	BS170 (https://www.onsemi.com/pub/Collateral/BS170-D.PDF  ||   https://www.onsemi.com/pub/Collateral/MMBF170-D.PDF  )
 =======================================================================
 
 ==================== REGULATOR 5V =====================================
-
+https://www.instructables.com/id/7805-Regulator-5V-Module-Easy-Tutorial/
+- LM7805
+- 10 uF (elco)
+- 100 uF (elco)
+- 0.1 uF (ceramic)
+=======================================================================
