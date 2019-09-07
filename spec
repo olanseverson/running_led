@@ -58,7 +58,7 @@ f =    1.44  / ((R1 + 2*R2) * C1)
 - PERIOD = 1.3 s
 - IC NE555 
 - R1 =  1k
-- R2 = 5k + pot(1k)
+- R2 = 5k + pot(10k)
 - C1 = 100uF
 - C2(trigger pin) = 0.01uF
 - Diode 1N4003
