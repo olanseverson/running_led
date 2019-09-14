@@ -34,7 +34,17 @@ PS:
 -----------------------------------------------------------------------
    9  |  14 | 10  |  16 |  15 | 14  | 16 | TOTAL = 94
 =======================================================================
-	
+  xxx   xxx  x   x xxxxx  xxx  x   x  |x   x                           
+-x   x|x   x|x   x|x    |x   x|x  x   |x   x                           
+-x   x|x    |xx  x|x    |x    |x x    |x   x                           
+-xxxxx|x xxx|x x x|xxx  | xxx |xxx    |xxxxx                           
+-x   x|x   x|x  xx|x    |    x|x  x   |x   x                           
+-x   x|x   x|x   x|x    |x   x|x   x  |x   x                           
+-x   x| xxx |x   x|xxxxx| xxx |x   x x|x   x x                         
+-----------------------------------------------------------------------
+  18  |  17 | 17  | 17  | 15  |  16   |  18| TOTAL = 118
+=======================================================================
+                                                                       
 ================================ PRINT PCB ============================
 https://www.tokopedia.com/allaboutmypc/design-dan-cetak-pcb?trkid=f=Ca0000L000P0W0S0Sh,Co0Po0Fr0Cb0_src=search_page=1_ob=203_q=cetak+pcb_bmexp=27_po=25_catid=577_bmexp=27&whid=0
 
@@ -47,7 +57,17 @@ https://www.tokopedia.com/juhana/cetak-pcb-single-doble-layer-through-hole-murah
 PERTIMBANGAN:
 https://www.tokopedia.com/kit-elektronika/cetak-pcb-dan-design-pcb?trkid=f=Ca0000L000P0W0S0Sh,Co0Po0Fr0Cb0_src=search_page=1_ob=5_q=cetak+pcb_bmexp=27_po=2_catid=4107_bmexp=27&whid=0
 =======================================================================
+================RESISTOR LED ==========================================
+- A => 3*100
+- G => 2*100 +   680
+- N => 2*100 +   680
+- E => 2*100 +   680
+- S =>         3*680
+- K =>   100 + 2*680
+- H => 3*100
 
+-resistor 100R = 13
+-resistor 680R = 8
 ============ASTABLE MULTIVIBRATOR======================================
 https://www.electronicshub.org/astable-multivibrator-using-555-timer/
 https://circuitdigest.com/calculators/555-timer-astable-circuit-calculator
@@ -58,7 +78,7 @@ f =    1.44  / ((R1 + 2*R2) * C1)
 - PERIOD = 1.3 s
 - IC NE555 
 - R1 =  1k
-- R2 = 5k + pot(1k)
+- R2 = 1k (?) + pot(10k)
 - C1 = 100uF
 - C2(trigger pin) = 0.01uF
 - Diode 1N4003
@@ -73,8 +93,8 @@ f =    1.44  / ((R1 + 2*R2) * C1)
 	2n7000 (https://www.onsemi.com/pub/Collateral/2N7000-D.PDF)
 
 - pnp/npn:
-	
 	BS170 (https://www.onsemi.com/pub/Collateral/BS170-D.PDF  ||   https://www.onsemi.com/pub/Collateral/MMBF170-D.PDF  )
+- 2n2222 + 100R
 =======================================================================
 
 ==================== REGULATOR 5V =====================================
@@ -84,3 +104,10 @@ https://www.instructables.com/id/7805-Regulator-5V-Module-Easy-Tutorial/
 - 100 uF (elco)
 - 0.1 uF (ceramic)
 =======================================================================
+CORRECTION: (14-09-2019)
+- JACK INPUT POWER
+- INVERTER USING 2N2222
+- ENABLE OUTPUT (ACTIVE LOW)
+- +/- UNTUK JUMPER DAN IC
+- SWITCH 
+- tambahin lubangyg
