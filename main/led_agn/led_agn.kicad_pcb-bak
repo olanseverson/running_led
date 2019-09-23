@@ -2135,7 +2135,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A358B)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A358B)
     (at 265.57792 75.25557 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2170,7 +2170,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A34D4)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A34D4)
     (at 260.07792 75.25557 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2205,7 +2205,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A341D)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A341D)
     (at 260.07792 69.388904 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2240,7 +2240,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A3366)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A3366)
     (at 260.07792 63.522238 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2275,7 +2275,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A32AF)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A32AF)
     (at 260.07792 57.569298 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2310,7 +2310,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A31F8)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A31F8)
     (at 260.07792 51.788906 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2345,7 +2345,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A3141)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A3141)
     (at 238.07792 75.25557 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2380,7 +2380,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A308A)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A308A)
     (at 238.07792 69.388904 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2415,7 +2415,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2FD3)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2FD3)
     (at 238.07792 63.522238 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2450,7 +2450,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2F1C)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2F1C)
     (at 238.07792 57.569298 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2485,7 +2485,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8BF733)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8BF733)
     (at 238.07792 51.788906 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2520,7 +2520,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2DAE)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2DAE)
     (at 238.07792 45.92224 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2555,7 +2555,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2CF7)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2CF7)
     (at 243.57792 57.569298 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2590,7 +2590,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2C40)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2C40)
     (at 249.07792 57.569298 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2625,7 +2625,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2B89)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2B89)
     (at 254.57792 57.569298 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2660,7 +2660,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2AD2)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2AD2)
     (at 260.07792 45.92224 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2695,7 +2695,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2A1B)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2A1B)
     (at 260.07792 40.42224 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2730,7 +2730,7 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm locked (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2964)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5D8A2964)
     (at 238.07792 40.42224 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
