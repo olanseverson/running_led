@@ -1,4 +1,4 @@
-update=Min 29 Sep 2019 12:52:11  WIB
+update=Min 29 Sep 2019 01:17:13  WIB
 version=1
 last_client=kicad
 [general]
@@ -250,7 +250,29 @@ dPairWidth=0.381
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=led
+Clearance=0.254
+TrackWidth=0.508
+ViaDiameter=0.8
+ViaDrill=0.6
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.508
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=power
+Clearance=0.254
+TrackWidth=0.762
+ViaDiameter=0.8
+ViaDrill=0.6
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.762
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=signal
 Clearance=0.254
 TrackWidth=0.381
 ViaDiameter=0.8
