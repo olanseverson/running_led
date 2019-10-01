@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 35)
+    (drawings 38)
     (tracks 496)
     (zones 0)
     (modules 168)
@@ -72,10 +72,10 @@
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010e0_ffffffff)
-      (usegerberextensions false)
-      (usegerberattributes false)
+      (usegerberextensions true)
+      (usegerberattributes true)
       (usegerberadvancedattributes false)
-      (creategerberjobfile false)
+      (creategerberjobfile true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -7373,6 +7373,9 @@
     )
   )
 
+  (target plus (at 21.69414 23.64232) (size 5) (width 0.05) (layer Edge.Cuts) (tstamp 5D9179F8))
+  (target plus (at 276.8473 23.63724) (size 5) (width 0.05) (layer Edge.Cuts) (tstamp 5D9179F7))
+  (target plus (at 276.84984 106.68254) (size 5) (width 0.05) (layer Edge.Cuts))
   (gr_text 29/09/2019 (at 255.124483 88.86952) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -7946,7 +7949,7 @@
   (segment (start 206.3567 47.7776) (end 206.3567 35.092) (width 0.508) (layer F.Cu) (net 145))
   (segment (start 206.3567 35.092) (end 207.576 33.8727) (width 0.508) (layer F.Cu) (net 145))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D924A8A) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D90E8C8) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
